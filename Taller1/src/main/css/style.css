@@ -13,8 +13,54 @@
 /* Main style */
 body,
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   color: #000;
   background-color: #faf7f5;
 }
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+h1
+h2
+h3
+h4
+h5
+h6{
+  margin-bottom: 15px;
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+p{
+  margin: 10px 0;
+  line-height: 1.7rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*Utility classes */
