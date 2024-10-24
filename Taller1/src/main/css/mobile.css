@@ -1,0 +1,118 @@
+
+/*Utility classes */
+
+
+.display-1{
+  font-size: 5rem;
+  
+}
+
+.flex{
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+/* padding */
+
+.p-1{
+padding: 70px 0;
+}
+
+.p-2{
+  padding: 50px 0;
+}
+
+.pd-1{
+  padding-bottom: 20px;
+}
+
+.pd-1{
+  padding-top: 80px;
+  
+}
+
+/* mainheader */
+.mainheader {
+  height: 110%;
+}
+
+.mainheader .container{
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*showcase */
+
+.flex-social a {
+  color: #000;
+}
+
+.flex-social{
+  
+  justify-content: center;
+  padding-top: 50px;
+}
+
+
+
+/* tienda */
+
+#shop .text-tag{
+  text-align: center;
+
+}
+
+
+/* Acerca de nosotros */
+#about{
+    text-align: center;
+}
+
+#about .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .flex-box {
+  flex: 1;
+  padding-top: 40px;
+
+}
+
+#about .flex-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#about .flex-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* Mantiene la proporción de la imagen */
+  display: block;
+}
+
+#about h5 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+
+
+
+
+/* Joint */
+
+
+#Unete .form-control,
+#Unete button{
+  width: 100%;
+ 
+}
+
+
